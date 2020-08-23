@@ -1,0 +1,15 @@
+#include "main.h"
+MAINMENU MENU {
+	POPUP"&File"
+	{
+		MENUITEM"&Clear all messages",RC_CLEAR
+		MENUITEM"Online users",RC_SET
+		MENUITEM SEPARATOR
+		MENUITEM"E&xit",RC_EXIT
+	}
+	POPUP"&About"
+	{
+		MENUITEM"&About",RC_ABOUT
+	}
+}
+A ICON "a.ico"
